@@ -1,5 +1,13 @@
+***
+
 <p align="center">
-  <h1 align="center">Dinosaur Website</h2>
+<img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/> <b>Project in progress</b> <img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/>
+</p>
+
+***
+
+<p align="center">
+  <h1 align="center">Dinosaur Website</h1>
   <p align="center">...</p>
 </p>
 
