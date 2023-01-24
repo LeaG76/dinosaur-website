@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">Dinosaur Website</h2>
-  <p align="center">Generate previews for README.md on Github</p>
+  <p align="center">...</p>
 </p>
 
 <p align="center">
