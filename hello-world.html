@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Vue.js</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Parallax Scrolling Website</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
 <body>
-    <div id="app">
-        {{ test }}
-    </div>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Encyclopedia</a>
+            <a href="#">Charts</a>
+            <a href="#">Pop Culture</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-    <script>
-        var vue = new Vue({
-            el: "#app",
-            data: {
-                test : "Hello World",
-            }
-        })
-    </script>
+    <section class="parallax">
+        <img src="assets/pictures/hill1.png" id="hill1">
+        <img src="assets/pictures/hill2.png" id="hill2">
+        <img src="assets/pictures/hill3.png" id="hill3">
+        <img src="assets/pictures/hill4.png" id="hill4">
+        <img src="assets/pictures/hill5.png" id="hill5">
+        <img src="assets/pictures/tree.png" id="tree">
+        <h2 id="text">Parallax Website</h2>
+        <img src="assets/pictures/leaf.png" id="leaf">
+        <img src="assets/pictures/plant.png" id="plant">
+    </section>
+
+    <section class="sec">
+        <h2>Parallax Scrolling Website</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nemo eligendi at, repellendus error sapiente magnam voluptates possimus facilis vitae autem molestiae ea ullam repudiandae eaque! Iure eveniet voluptates iusto laboriosam quos, modi consectetur porro architecto incidunt obcaecati unde rerum. Esse repellendus blanditiis corrupti sapiente quaerat voluptatibus, laboriosam quisquam facere? At odit, praesentium exercitationem asperiores ipsa temporibus numquam voluptatibus eveniet reprehenderit porro fugiat magni corrupti tenetur debitis aliquam, nesciunt consectetur veritatis eum? Dignissimos odit nesciunt earum facere magni blanditiis ab illum et fuga, quod consectetur nostrum tempore minima dolores laudantium, nobis quia dolorum! Porro doloremque sequi, ipsam laborum odio, inventore quam maiores nesciunt illo ullam quibusdam sit delectus soluta unde accusantium debitis obcaecati! Ducimus animi magnam reiciendis a alias tenetur quod repellendus mollitia, voluptas culpa in, ullam deleniti consequuntur veniam!
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nemo eligendi at, repellendus error sapiente magnam voluptates possimus facilis vitae autem molestiae ea ullam repudiandae eaque! Iure eveniet voluptates iusto laboriosam quos, modi consectetur porro architecto incidunt obcaecati unde rerum. Esse repellendus blanditiis corrupti sapiente quaerat voluptatibus, laboriosam quisquam facere? At odit, praesentium exercitationem asperiores ipsa temporibus numquam voluptatibus eveniet reprehenderit porro fugiat magni corrupti tenetur debitis aliquam, nesciunt consectetur veritatis eum? Dignissimos odit nesciunt earum facere magni blanditiis ab illum et fuga, quod consectetur nostrum tempore minima dolores laudantium, nobis quia dolorum! Porro doloremque sequi, ipsam laborum odio, inventore quam maiores nesciunt illo ullam quibusdam sit delectus soluta unde accusantium debitis obcaecati! Ducimus animi magnam reiciendis a alias tenetur quod repellendus mollitia, voluptas culpa in, ullam deleniti consequuntur veniam!
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nemo eligendi at, repellendus error sapiente magnam voluptates possimus facilis vitae autem molestiae ea ullam repudiandae eaque! Iure eveniet voluptates iusto laboriosam quos, modi consectetur porro architecto incidunt obcaecati unde rerum. Esse repellendus blanditiis corrupti sapiente quaerat voluptatibus, laboriosam quisquam facere? At odit, praesentium exercitationem asperiores ipsa temporibus numquam voluptatibus eveniet reprehenderit porro fugiat magni corrupti tenetur debitis aliquam, nesciunt consectetur veritatis eum? Dignissimos odit nesciunt earum facere magni blanditiis ab illum et fuga, quod consectetur nostrum tempore minima dolores laudantium, nobis quia dolorum! Porro doloremque sequi, ipsam laborum odio, inventore quam maiores nesciunt illo ullam quibusdam sit delectus soluta unde accusantium debitis obcaecati! Ducimus animi magnam reiciendis a alias tenetur quod repellendus mollitia, voluptas culpa in, ullam deleniti consequuntur veniam!
+            <br><br>
+        </p>
+    </section>
+
+    <script src="assets/javascripts/script.js"></script>
 </body>
 </html>

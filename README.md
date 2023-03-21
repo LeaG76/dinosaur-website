@@ -1,14 +1,6 @@
-***
-
-<p align="center">
-<img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/> <b>Project in progress</b> <img alt="Warning" src="https://cdn-icons-png.flaticon.com/512/595/595067.png" width="15px"/>
-</p>
-
-***
-
 <p align="center">
   <h1 align="center">Dinosaur Website</h1>
-  <p align="center">...</p>
+  <h4 align="center">...</h4>
 </p>
 
 <p align="center">
@@ -20,6 +12,6 @@
 
 <p align="center">
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/leag76/dinosaur-website?color=%23B5CDA3&logo=github&logoColor=white" />
-  <img alt="Commit activity" src="https://img.shields.io/github/commit-activity/m/leag76/dinosaur-website?color=%23A76844&logo=github&logoColor=white" />
+  <img alt="Commit activity" src="https://img.shields.io/github/commit-activity/y/leag76/dinosaur-website?color=%23A76844&logo=github&logoColor=white" />
   <img alt="Repo size" src="https://img.shields.io/github/repo-size/leag76/dinosaur-website?color=%23C1AC95&logo=github&logoColor=white" />
 </p>
