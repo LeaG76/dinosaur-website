@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -22,13 +24,14 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 100;
+    z-index: 10000;
 }
 
 .logo {
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
     color: #359381;
-    pointer-events: none;
     margin-right: 18%;
 }
 
@@ -49,18 +52,30 @@ header {
 
 .parallax {
     position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-bottom: 100px;
+}
+
+.parallax::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #003329, transparent);
 }
 
 #text {
     position: absolute;
     text-align: center;
-    font-size: 6em;
+    line-height : 1em;
+    font-size: 6.5em;
     color: #fff;
+    white-space: nowrap;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -69,6 +84,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     pointer-events: none;
 }
 
@@ -79,19 +96,13 @@ header {
 }
 
 .sec h2 {
-    font-size: 3em;
+    font-size: 3.5em;
     color: #fff;
     margin-bottom: 10px;
 }
 
 .sec p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: #fff;
     font-weight: 300;
-}
-
-@media screen and (max-width: 1700px) {
-    .parallax {
-        margin-bottom: 0;
-    }
 }
