@@ -7,7 +7,7 @@ let hill5 = document.getElementById('hill5');
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
     
-    if(value<750) {
+    if(value<600) {
         text.style.marginTop = value * 2.5 + 'px';
         hill1.style.top = value * 1.5 + 'px';
     }
