@@ -35,6 +35,15 @@ header {
     margin-right: 18%;
 }
 
+#iconlogo {
+    position: relative;
+    top: 3px;
+    left: -1px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(45deg);
+}
+
 .navigation a {
     text-decoration: none;
     color: #359381;
@@ -73,7 +82,7 @@ header {
     position: absolute;
     text-align: center;
     line-height : 1em;
-    font-size: 6.5em;
+    font-size: 7em;
     color: #fff;
     white-space: nowrap;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
